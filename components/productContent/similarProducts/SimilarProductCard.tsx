@@ -15,9 +15,9 @@ const SimilarProductCard = ({ idx }: Props) => {
             <span>25% OFF</span>
           </div>
         ) : null}
-        <button className="group-hover:bottom-3 absolute transition-all duration-500 -bottom-10 flex gap-2 bg-primary text-white rounded-xl  leading-none  py-3 px-8 ">
+        <button className="group-hover:bottom-3 absolute transition-all duration-500 -bottom-20 flex gap-2 bg-primary text-white rounded-xl  leading-none  py-3 px-8 ">
           <IoBag className="fill-gray-400 md:text-md text-sm" />
-          <span className="md:text-md sm:text-sm text-xs" >Add To Cart</span>
+          <span className="md:text-md sm:text-sm text-xs">Add To Cart</span>
         </button>
       </div>
       <div className="flex items-center gap-2">

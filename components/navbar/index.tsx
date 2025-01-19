@@ -1,10 +1,8 @@
 import NavUrls from "./NavUrls";
 import NavIcons from "./NavIcons";
 import { useState } from "react";
-
 const Navbar = () => {
   const [activeURL, setActiveURL] = useState<string>("");
-
   return (
     <header className="bg-lightPrimary">
       <div className="mx-auto flex max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 h-[100px]">
