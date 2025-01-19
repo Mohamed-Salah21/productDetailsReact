@@ -7,6 +7,7 @@ const Ratings = ({ value }: Props) => {
     <div className="flex items-center">
       {[...Array(5)].map((_, idx: number) => (
         <button
+          key={idx}
           type="button"
           className={
             idx + 1 <= value

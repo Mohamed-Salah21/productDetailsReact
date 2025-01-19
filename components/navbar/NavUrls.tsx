@@ -17,7 +17,7 @@ const NavUrls = ({ setActiveURL, activeURL }: Props) => {
       <nav aria-label="Global">
         <ul className="flex items-center gap-6 text-sm">
           {myRoutes.map((item: Record<string, string>) => (
-            <li onClick={() => setActiveURL(item.path)}>
+            <li key={item.path} onClick={() => setActiveURL(item.path)}>
               <a
                 className={`text-sm leading-6 pb-2 ${
                   activeURL === item.path

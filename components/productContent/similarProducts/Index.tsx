@@ -1,4 +1,3 @@
-import React from "react";
 import SimilarProductCard from "./SimilarProductCard";
 import { A11y, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

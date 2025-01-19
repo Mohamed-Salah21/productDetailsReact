@@ -50,6 +50,7 @@ const DropDownMenu = ({ childElement, listItems }: Props) => {
           >
             {listItems.map((item: string) => (
               <a
+                key={item}
                 href="#"
                 className="block text-center px-4 py-2 text-sm text-lightDark hover:bg-gray-100 font-semibold"
                 role="menuitem"

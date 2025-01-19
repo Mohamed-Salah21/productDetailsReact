@@ -17,7 +17,7 @@ const ReviewsStatistics = () => {
       </div>
       <div className="md:col-span-2 col-span-1">
         {[...Array(4)].map((_, idx: number) => (
-          <div className="flex items-center justify-between gap-2">
+          <div key={idx} className="flex items-center justify-between gap-2">
             <div className="flex-none w-12 h-14 flex items-center justify-center gap-1">
               <button
                 type="button"

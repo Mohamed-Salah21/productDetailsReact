@@ -27,7 +27,7 @@ const ProductBreadCrumps = () => {
   return (
     <div className="flex items-center gap-2 py-4">
       {crumbs.map((item, index) => (
-        <div className="flex items-center gap-2">
+        <div key = {item.path} className="flex items-center gap-2">
           <a
             onClick={(event) => {
               if (crumbs.length - 1 === index) {
