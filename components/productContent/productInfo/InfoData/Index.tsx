@@ -3,7 +3,7 @@ import DataFilters from "./DataFilters";
 import QtyAndCart from "./QtyAndCart";
 const InfoData = () => {
   return (
-    <div className="flex flex-col gap-4 border md:p-0 px-3">
+    <div className="flex flex-col gap-4 md:p-0 px-3">
       <div className="flex items-center gap-3">
         <span className="text-gold text-sm">blogs</span>
         <div className="flex flex-col justify-center gap-1">
