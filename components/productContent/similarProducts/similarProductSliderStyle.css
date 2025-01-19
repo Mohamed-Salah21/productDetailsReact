@@ -1,0 +1,26 @@
+.similarProducts-slider .swiper-button-prev,
+.similarProducts-slider .swiper-button-next {
+  position: relative;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  padding: 22px;
+  outline: none;
+}
+
+.similarProducts-slider .swiper-button-next {
+  margin: -45px 0 0px 60px;
+}
+
+.similarProducts-slider .swiper-button-prev::after,
+.similarProducts-slider .swiper-button-next::after {
+  font-size: 15px;
+}
+.similarProducts-slider .swiper-scrollbar {
+  display: none;
+}
